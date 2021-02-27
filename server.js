@@ -184,29 +184,7 @@ function removeEmployee() {
         })
     }
 
-// function listDepartments() {
-//     connection.query("SELECT * FROM department", function(err, res) {
-//         if (err) throw err;
-//         console.table;
-//     }) 
-// const currentDepartment=[]; 
-//     inquirer
-//         .prompt({
-//             name: "removeDepartment",
-//             type: "list", 
-//             message: "Department being removed:",
-//             choices: currentDepartment
-//         })
-//         .then(function (response) {
-//             console.log(response.removeDepartment)
-//             const query = "REMOVE FROM department WHERE ?"
-//             connection.query(query, { id: response.removeDepartment }, function (err, res) {
-//                 if (err) throw err;
-//                 console.log(res.affectedRows + " Department has been removed.\n");
 
-//                 listDepartments()
-//             })
-//         })
     
     
 function updateEmployee() {
@@ -260,14 +238,3 @@ function updateEmployee() {
 
 
 
-// function removeDepartment() {
-    
-//     connection.query("SELECT name FROM department", function (err, res) {
-//         if (err) throw err;
-//         const departmentArray = res.map(function (obj) {
-//             return obj.name;
-//         });
-        
-//         currentDepartment.push(departmentArray);
-//     })
-// }
