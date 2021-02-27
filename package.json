@@ -1,17 +1,28 @@
 {
-  "name": "employee-tracker",
+  "name": "HWEMPLOYEEMANAGEMENT",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index"
+  "main": "server.js",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^7.3.3",
+    "install": "^0.13.0",
+    "mysql": "^2.18.1"
   },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fraijo17/HWEMPLOYEEMANAGEMENT"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "asciiart-logo": "^0.2.6",
-    "console.table": "^0.10.0",
-    "inquirer": "^7.0.0",
-    "mysql": "^2.17.1"
-  }
+  "bugs": {
+    "url": "https://github.com/Fraijo17/HWEMPLOYEEMANAGEMENT/issues"
+  },
+  "homepage": "https://github.com/Fraijo17/HWEMPLOYEEMANAGEMENT"
 }
